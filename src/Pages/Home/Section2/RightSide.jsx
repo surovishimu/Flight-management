@@ -2,7 +2,7 @@
 
 const RightSide = () => {
     return (
-        <div className="bg-green-500 w-9/12">
+        <div className="bg-white shadow-2xl rounded-lg w-9/12">
             <h1>right</h1>
         </div>
     );

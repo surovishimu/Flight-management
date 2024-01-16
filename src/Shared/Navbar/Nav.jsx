@@ -1,4 +1,4 @@
-import navimage from '../../../public/Image/images.png'
+import navimage from '../../../public/Image/images-removebg-preview.png'
 
 const Nav = () => {
     return (

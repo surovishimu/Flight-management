@@ -2,6 +2,8 @@ import { useState, useEffect } from 'react';
 import DeparatureTime from './DeparatureTime';
 import PriceRange from './PriceRange';
 import StopsDhaka from './StopsDhaka';
+import Airlines from './Airlines';
+import TransitTime from './TransitTime';
 
 
 const LeftSide = () => {
@@ -42,7 +44,7 @@ const LeftSide = () => {
     };
 
     return (
-        <div className="bg-zinc-50 shadow-xl w-3/12 rounded-lg">
+        <div className="bg-white shadow-2xl w-3/12 rounded-lg">
             <h1 className="text-center mt-5 text-xl font-semibold">Session Timeout in</h1>
             <div className="text-center text-4xl font-bold mt-5 mb-4">{formatTime()}</div>
             <hr />
@@ -52,6 +54,11 @@ const LeftSide = () => {
             <DeparatureTime></DeparatureTime>
             <hr />
             <StopsDhaka></StopsDhaka>
+            <hr />
+            <Airlines></Airlines>
+            <hr />
+            <TransitTime></TransitTime>
+
         </div>
     );
 };

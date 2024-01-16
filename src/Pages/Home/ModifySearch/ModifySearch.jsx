@@ -12,7 +12,7 @@ const ModifySearch = () => {
 
     return (
         <div>
-            <div className="rounded-lg shadow-xl mt-5 p-5 bg-zinc-50">
+            <div className="rounded-lg shadow-xl mt-5 p-5 bg-white">
                 <div className="flex">
                     <div className="form-control mr-4">
                         <label className="label cursor-pointer">

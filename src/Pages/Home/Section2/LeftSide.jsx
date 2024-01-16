@@ -1,11 +1,14 @@
 import { useState, useEffect } from 'react';
+import DeparatureTime from './DeparatureTime';
+import PriceRange from './PriceRange';
+import StopsDhaka from './StopsDhaka';
 
 
 const LeftSide = () => {
     const initialTime = 20 * 60;
     
     const [remainingTime, setRemainingTime] = useState(initialTime);
-    const [rangeValues, setRangeValues] = useState({ min: 3240, max: 6822 });
+  
     useEffect(() => {
         const intervalId = setInterval(() => {
             if (remainingTime > 0) {
@@ -18,10 +21,7 @@ const LeftSide = () => {
 
         return () => clearInterval(intervalId);
     }, [remainingTime]);
-    const handleRangeChange = (event) => {
-        const value = parseInt(event.target.value);
-        setRangeValues({ ...rangeValues, max: value });
-    };
+    
     const formatTime = () => {
         const minutes = Math.floor(remainingTime / 60);
         const seconds = remainingTime % 60;
@@ -47,21 +47,11 @@ const LeftSide = () => {
             <div className="text-center text-4xl font-bold mt-5 mb-4">{formatTime()}</div>
             <hr />
            
-            <input
-                type="range"
-                min={3240}
-                max="6822"
-                value={rangeValues.max}
-                onChange={handleRangeChange}
-                className="range range-xs range-error mt-5 w-11/12 ml-2"
-               
-            /> 
-            
-            <div className="flex justify-center items-center font-semibold text-md">
-                <span>{rangeValues.min.toLocaleString()} tk</span>
-                <span className='mx-2'>-</span>
-                <span>{rangeValues.max.toLocaleString()} tk</span>
-            </div>
+            <PriceRange></PriceRange>
+            <hr />
+            <DeparatureTime></DeparatureTime>
+            <hr />
+            <StopsDhaka></StopsDhaka>
         </div>
     );
 };

@@ -11,7 +11,7 @@ const ModifySearch = () => {
     };
 
     return (
-        <div>
+        <div className="relative">
             <div className="rounded-lg shadow-xl mt-5 p-5 bg-white">
                 <div className="flex">
                     <div className="form-control mr-4">
@@ -53,8 +53,8 @@ const ModifySearch = () => {
                 </div>
                 <FromTo></FromTo>
                 <FareType></FareType>
-                <div className="flex justify-center">
-                    <button className="btn bg-red-600 absolute text-white">Modisy Search</button>
+                <div className="flex justify-center ">
+                    <button className="btn bg-red-600 lg:btn-lg absolute lg:-bottom-9 btn-md hover:bg-red-600  text-white">Modisy Search</button>
                 </div>
             </div>
 

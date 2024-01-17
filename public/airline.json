@@ -1,0 +1,144 @@
+[
+    {
+        "id": "airline-1",
+        "airlineName": "Biman Bangladesh Airlines",
+        "logo": "https://i.ibb.co/wwj92Bp/bimanbd.jpg",
+        "departure": {
+            "time": "18:45",
+            "date": "Wed, 17 Jan 2024",
+            "city": "Dhaka (DAC)"
+        },
+        "duration": "45 minutes",
+        "type": "Non Stop",
+        "arrival": {
+            "time": "19:30",
+            "date": "Wed, 17 Jan 2024",
+            "city": "Chittagong (CGP)"
+        },
+        "price": "BDT 3,240"
+    },
+    {
+        "id": "airline-2",
+        "airlineName": "US Bangla Airlines",
+        "logo": "https://i.ibb.co/ZX0Z6Zd/usbangla.jpg",
+        "departure": {
+            "time": "20:00",
+            "date": "Wed, 17 Jan 2024",
+            "city": "Dhaka (DAC)"
+        },
+        "duration": "55 minutes",
+        "type": "Non Stop",
+        "arrival": {
+            "time": "20:55",
+            "date": "Wed, 17 Jan 2024",
+            "city": "Chittagong (CGP)"
+        }
+    },
+    {
+        "id": "airline-3",
+        "airlineName": "Air Astra",
+        "logo": "https://i.ibb.co/m5H6Pbz/airstra.jpg",
+        "departure": {
+            "time": "19:30",
+            "date": "Wed, 17 Jan 2024",
+            "city": "Dhaka (DAC)"
+        },
+        "duration": "55 minutes",
+        "type": "Non Stop",
+        "arrival": {
+            "time": "20:25",
+            "date": "Wed, 17 Jan 2024",
+            "city": "Chittagong (CGP)"
+        }
+    },
+    {
+        "id": "airline-4",
+        "airlineName": "Novo Air",
+        "logo": "https://i.ibb.co/V2k8WBy/novoair.webp",
+        "departure": {
+            "time": "19:40",
+            "date": "Wed, 17 Jan 2024",
+            "city": "Dhaka (DAC)"
+        },
+        "duration": "55 minutes",
+        "type": "Non Stop",
+        "arrival": {
+            "time": "20:35",
+            "date": "Wed, 17 Jan 2024",
+            "city": "Chittagong (CGP)"
+        },
+        "price": "BDT 4,139"
+    },
+    {
+        "id": "airline-5",
+        "airlineName": "Biman Bangladesh Airlines",
+        "logo": "https://i.ibb.co/wwj92Bp/bimanbd.jpg",
+        "departure": {
+            "time": "18:45",
+            "date": "Wed, 17 Jan 2024",
+            "city": "Dhaka (DAC)"
+        },
+        "duration": "45 minutes",
+        "type": "Non Stop",
+        "arrival": {
+            "time": "19:30",
+            "date": "Wed, 17 Jan 2024",
+            "city": "Chittagong (CGP)"
+        },
+        "price": "BDT 3,240"
+    },
+    {
+        "id": "airline-6",
+        "airlineName": "US Bangla Airlines",
+        "logo": "https://i.ibb.co/ZX0Z6Zd/usbangla.jpg",
+        "departure": {
+            "time": "20:30",
+            "date": "Wed, 17 Jan 2024",
+            "city": "Dhaka (DAC)"
+        },
+        "duration": "1 hour 10 minutes",
+        "type": "Non Stop",
+        "arrival": {
+            "time": "21:40",
+            "date": "Wed, 17 Jan 2024",
+            "city": "Chittagong (CGP)"
+        },
+        "price": "BDT 3,500"
+    },
+    {
+        "id": "airline-7",
+        "airlineName": "Air Astra",
+        "logo": "https://i.ibb.co/m5H6Pbz/airstra.jpg",
+        "departure": {
+            "time": "19:00",
+            "date": "Wed, 17 Jan 2024",
+            "city": "Dhaka (DAC)"
+        },
+        "duration": "55 minutes",
+        "type": "Non Stop",
+        "arrival": {
+            "time": "19:55",
+            "date": "Wed, 17 Jan 2024",
+            "city": "Chittagong (CGP)"
+        },
+        "price": "BDT 3,750"
+    },
+    {
+        "id": "airline-8",
+        "airlineName": "Novo Air",
+        "logo": "https://i.ibb.co/V2k8WBy/novoair.webp",
+        "departure": {
+            "time": "21:15",
+            "date": "Wed, 17 Jan 2024",
+            "city": "Dhaka (DAC)"
+        },
+        "duration": "1 hour 20 minutes",
+        "type": "Non Stop",
+        "arrival": {
+            "time": "22:35",
+            "date": "Wed, 17 Jan 2024",
+            "city": "Chittagong (CGP)"
+        },
+        "price": "BDT 4,139"
+    }
+]

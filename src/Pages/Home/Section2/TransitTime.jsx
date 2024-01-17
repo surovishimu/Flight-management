@@ -2,7 +2,7 @@
 
 const TransitTime = () => {
     return (
-        <div>
+        <div className="my-5 ">
             <div className="my-2">
                 <h1 className="ml-3 text-lg font-semibold">Transit Time in (Dhaka - Chittagong)</h1>
                 <div className="flex gap-3 items-center px-3 mt-2">
@@ -14,7 +14,7 @@ const TransitTime = () => {
                 </div>
             </div>
 
-            <button className="btn w-11/12 block mx-auto border border-red-600 bg-white hover:bg-red-600 text-red-600 text-lg mt-4 hover:text-white ">Clear Filters</button>
+            <button className="btn w-11/12 block mx-auto border border-red-600 bg-white hover:bg-red-600 text-red-600 text-lg mt-10 hover:text-white mb-5  ">Clear Filters</button>
 
         </div>
     );

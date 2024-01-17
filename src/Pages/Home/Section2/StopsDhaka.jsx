@@ -2,7 +2,7 @@
 
 const StopsDhaka = () => {
     return (
-        <div className="">
+        <div className="my-4">
             <div className="my-2">
                 <h1 className="ml-3 text-lg font-semibold">Stops From Dhaka</h1>
                 <div className="flex justify-between items-center px-3 mt-2">
@@ -13,7 +13,7 @@ const StopsDhaka = () => {
                 </div>
             </div>
             <hr />
-            <div className="my-2">
+            <div className="my-4">
                 <h1 className="ml-3 text-lg font-semibold">Check in Baggage Allowance</h1>
                 <div className="flex  items-center px-3 mt-2 gap-3">
                     <div className="flex items-center">
@@ -23,7 +23,7 @@ const StopsDhaka = () => {
                 </div>
             </div>
             <hr />
-            <div className="my-2">
+            <div className="my-4">
                 <h1 className="ml-3 text-lg font-semibold">Refundable</h1>
                 <div className="flex  items-center px-3 mt-2 gap-3">
                     <div className="flex items-center">

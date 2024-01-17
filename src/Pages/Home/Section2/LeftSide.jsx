@@ -44,8 +44,8 @@ const LeftSide = () => {
     };
 
     return (
-        <div className="bg-white shadow-2xl w-3/12 rounded-lg">
-            <h1 className="text-center mt-5 text-xl font-semibold">Session Timeout in</h1>
+        <div className="bg-white shadow-2xl lg:w-4/12 w-full rounded-lg px-5 py-5">
+            <h1 className="text-center mt-5 text-2xl font-semibold">Session Timeout in</h1>
             <div className="text-center text-4xl font-bold mt-5 mb-4">{formatTime()}</div>
             <hr />
            

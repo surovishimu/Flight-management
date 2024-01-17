@@ -3,7 +3,7 @@
 const Airlines = () => {
     return (
         <div>
-            <div className="my-2">
+            <div className="my-5">
                 <h1 className="ml-3 text-lg font-semibold">Airlines</h1>
                 <div className="flex justify-between items-center"> 
                     <div className="flex items-center px-3 mt-2">

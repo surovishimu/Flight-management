@@ -7,7 +7,7 @@ const Home = () => {
     return (
         <div>
             <ModifySearch></ModifySearch>
-            <div className="flex mt-16 gap-4 ">
+            <div className="flex lg:flex-row flex-col mt-16 gap-4 ">
                 <LeftSide></LeftSide>
                 <RightSide></RightSide>
             </div>
